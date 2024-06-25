@@ -2,11 +2,6 @@
 
 This repository is the client React application for my solo Pac-Man project. Players can visit the live site and click play. Upon which the game will load with similar rules to the original Pac-Man where the player has to score as many points as they can while avoiding the ghosts that roam the board. This client connects to a backend server to display high scores made by other players on a leaderboard when all their lives run out and the game is over. The player can sign up and make an account themselves for their score to also be saved in the database.
 
-The SolidJS version of this app (in progress) can be found at https://github.com/jmcnally17/pacman-client-solid
-
-This app pairs with an API that has multiple versions: <br>
-JS API (deployed version): https://github.com/jmcnally17/pacman-api-js <br>
-Java API: https://github.com/jmcnally17/pacman-api-java
 
 The original project monolith (with a full comprehensive commit history) can be found at https://github.com/jmcnally17/pacman-old
 
@@ -78,24 +73,4 @@ nvm use node
 
 `nvm use node` will use the latest stable version.
 
-### How To Use
-
-Now, you can clone this repository:
-
-```
-git clone https://github.com/jmcnally17/pacman-client-react.git
-```
-
-The dependencies must be installed by running `npm install` while in the [main](https://github.com/jmcnally17/pacman-client-react) directory.
-
-Now you can run this app by entering `npm start` while in the [main](https://github.com/jmcnally17/pacman-client-react) directory and then visit http://localhost:8000 in your browser to play the game.
-
-In order to play with full functionality, you must also be running the backend server alongside this client (link to that repo found at the top of this README).
-
-## Testing
-
-Tests can be run while in the [main](https://github.com/jmcnally17/pacman-client-react) directory by running `npm test`. Code coverage statistics can be obtained by running `npm run test:coverage`. Tests were written first in order to adhere to the test-driven development (TDD) process by following the red-green-refactor cycle.
-
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 
